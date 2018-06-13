@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+.header {
+  background-color: #fafafa;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+  display: inline-block;
+  height: 37px;
+  width: 110px;
+  margin: 20px 0 0 10px;
+}
+
+.search-bar {
+  display:inline-block;
+  background-color: #fff;
+  width: 570px;
+  height: 40px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border-radius: 2px;
+  margin-left: 10px;
+  /* is this the best way to vertically center the search bar next to the logo? */
+  top: 50%; transform: translateY(-25%);
+}
+
+input {
+  display: block;
+  float: left;
+  width: 475px;
+  height: 32px;
+  margin: 3px 0 0 10px;
+  vertical-align: center;
+  border: none;
+  font-size: 14px;
+}
+
+/* takes the blue outline out of current field.*/
+input:focus {
+  outline: none;
+}
+
+.search-bar-icons{
+  height: 22px;
+  width: 22px;
+  padding: 8px 0 0 10px;
+}
+
+.top-right-icons {
+  display: inline;
+  float: right;
+  padding: 15px;
+}
+
+button {
+  background-color: #4387fd;
+  color: white;
+  margin-left: 10px;
+  padding: 6px 10px 6px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 1px;
+  border: 1px solid #4285f4;
+  top: 50%; transform: translateY(-25%);
+}
+
+.head-nav-tabs{
+  display: block;
+  /* -- this didn't work for some reason but color did: font-size: small; */
+  color: #808080;
+  width: 600px;
+  padding-left: 90px;
+}
+
+li.list-nav {
+  display: inline;
+  padding: 12px 12px 14px 12px;
+  font-size: 12px;
+  color: #808080;
+}
+
+li.current-head-nav {
+  color: #1A73E8;
+  font-weight: bold;
+  border-bottom: 3px solid #1A73E8;
+}
+
+.head-settings-tools {
+  float: right;
+  top: 50%; transform: translateY(-25%);
+}
+
+p.small-gray {
+  color: #808080;
+  font-size: 12px;
+  padding-left: 140px;
+}
+
+.more-items{
+  padding-left: 40px;
+}
+
+.preview-blurb-box {
+  display: block;
+  font-family: arial;
+  font-size: 14px;
+  width: 550px;
+  padding: 1px 5px 12px 12px;
+  margin-left: 125px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border-radius: 2px;
+  line-height: 1.5;
+}
+
+.search-results {
+  margin: 30px 0 0px 138px;
+  width: 550px;
+}
+
+.search-result-item-title {
+  color: #1a0dab;
+  font-size: 16px;
+}
+
+.search-result-item-url {
+  color: #006621;
+  font-size: small;
+}
+
+.result-small-gray {
+  color: #808080;
+  font-size: 12px;
+}
+
+h3, related-searches {
+  font-size: medium;
+  font-weight: normal;
+  padding-bottom: 0px;
+  margin-left: 140px;
+}
+
+.related-list-blocks {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.related-list {
+  list-style-type: none;
+  color: #1a0dab;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.75;
+}
+
+.pagination {
+  /*display: inline;*/
+  width: 355px;
+  margin-left: 230px;
+}
+
+img.pagination-img {
+  padding-bottom: 10px;
+}
+
+.pagination-o {
+  display: inline-block;
+  font-size: 11px;
+  color: #4285f4;
+  text-align: center;
+}
+
+img.pagination-o {
+  display: block;
+}
+
+img.pagination-gle {
+  display: inline;
+  padding-bottom: 9px;
+}
+
+.current-page {
+  display: inline-block;
+  font-size: 11px;
+  color: #000;
+  text-align: center;
+}
+
+.footer {
+  background-color: #fafafa;
+  border-top: 1px solid #eaeaea;
+  margin: 25px 0 0px 0px;
+  padding: 0 0 15px 130px;
+}
